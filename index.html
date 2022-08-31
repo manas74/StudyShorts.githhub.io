@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("https://images4.newscred.com/Zz1kNmFkYmFmNzhlNGIxMWViYTU1ZDFmYjg0ZWI5MTc4Zg==");
+        }
+        label,h2,select{
+            color: rgb(163, 11, 57);
+        }
+        option,::placeholder{
+            color: rgb(99, 42, 165);
+        }
+        input{
+            color: rgb(33, 20, 220);
+        }
+        text,textarea{
+            color: rgb(94, 88, 7);
+        }
+    </style>
+</head>
+<header>
+    <h2><b>Registration form</b></h2>
+</header>
+<body>
+    <div>
+    <form action="/action.php">
+        <label>
+            <input type="Text" placeholder="Text your name">
+            <input type="password" placeholder="Enter your password">
+        <br><br>          
+        </label>
+        <label for="145">
+            <input type="radio" value="class11" name ="class" id="145">class11
+        </label>
+        <label for =123>
+            <input type="radio" value="class12" name ="class" id="123">class12
+        </label>
+        <br><br>
+        Choose the subject
+        <br>
+        <label for="math">
+            <input type="checkbox" value="math" name="subject" id="01">Math subject
+        </label><br>
+        <label for="English">
+            <input type="checkbox" value="English" name="subject" id="02">English subject
+        </label><br>
+        <label for="chemistry">
+            <input type="checkbox" value="chemistry" name="subject" id="03">Chemistry subject
+        </label><br>
+        <label for="physic">
+            <input type="checkbox" value="physic" name="subject" id="04">Physics subject
+        </label><br>
+        <label for C.S>
+            <input type="checkbox" value="C.S" name="subject" id="05">C.S subject
+        </label>
+        <br><br>
+        Select your city
+        <select name= "city">
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Pune">Pune</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="pondicherry">pondicherry</option>
+        </select>
+        <br><br>
+        <textarea  height="100"name="feedback" id="189" placeholder="Please enter your valuable feedback"></textarea>
+        <input type="submit" name="submit">
+    </div>
+    </form>
+</body>
+</html>
